@@ -1,0 +1,10 @@
+---
+# Sample playbook to install the logger
+- hosts: logged-hosts
+  remote_user: root
+  become: yes
+  become_method: sudo
+
+  roles:
+    - logLastLine
+    

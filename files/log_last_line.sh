@@ -1,0 +1,1 @@
+/home/mkazin/Scripts/log_last_line.sh

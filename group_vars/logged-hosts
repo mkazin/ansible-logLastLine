@@ -1,0 +1,6 @@
+# The username under which to install the logger
+# Used to set up logging in ~username/.bashrc
+username: mjkazin
+
+# The path under which to install the logger
+install_path: ~{{ username }}/Scripts/

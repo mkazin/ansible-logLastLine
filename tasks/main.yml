@@ -1,0 +1,6 @@
+- name: Install logger script
+  copy: src=log_last_line.sh dest={{ install_path }} mode=0755
+
+- name: Set up .bashrc
+  lineinfile: dest=~{{ username }}/.bashrc line='PROMPT_COMMAND={{install_path }}/log_last_line.sh'
+  
