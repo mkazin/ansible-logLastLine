@@ -33,7 +33,7 @@ This variable must be set to perform installation into this user account.
 License
 -------
 
-BSD
+MIT. See LICENSE.
 
 Author Information
 ------------------
